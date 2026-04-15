@@ -7,8 +7,8 @@
     </div>
 
     <?php if (!empty($loginError)): ?>
-      <div class="alert alert-red"><?= h($loginError) ?></div>
-    <?php endif ?>
+      <div class="alert alert-red"><?= ($loginError) ?></div>
+    <?php endif ?>q
 
     <form method="POST" action="index.php?page=dashboard">
       <input type="hidden" name="action" value="login">
